@@ -1,7 +1,8 @@
 Name
 ====
 
-# lua-resty-dns quote "https://github.com/openresty/lua-resty-dns"
+#support edns-client-subnet
+lua-resty-dns quote "https://github.com/openresty/lua-resty-dns"
 lua-resty-dns - Lua DNS resolver for the ngx_lua based on the cosocket API. support edns-client-subnet.
 
 Synopsis
@@ -46,8 +47,9 @@ Synopsis
         }
     }
 ``` 
-ee Also
+see Also
 ========
-https://github.com/openresty/lua-resty-dns
-http://noops.me/?p=653
+* https://github.com/openresty/lua-resty-dns
+* http://noops.me/?p=653
 
+[Back to TOC](#table-of-contents)
