@@ -2,8 +2,8 @@ Name
 ====
 
 #support edns-client-subnet
-*lua-resty-dns quote "https://github.com/openresty/lua-resty-dns"
-*lua-resty-dns - Lua DNS resolver for the ngx_lua based on the cosocket API. support edns-client-subnet.
+* lua-resty-dns quote "https://github.com/openresty/lua-resty-dns"
+* lua-resty-dns - Lua DNS resolver for the ngx_lua based on the cosocket API. support edns-client-subnet.
 
 Synopsis
 ========
@@ -26,7 +26,7 @@ Synopsis
                     return
                 end
 
-       --<modify> local answers, err = r:query("www.google.com")
+       		--<modify> local answers, err = r:query("www.google.com")
 		local answers, err = r:query("www.google.com", {client = client_ip})
                 if not answers then
                     ngx.say("failed to query the DNS server: ", err)
